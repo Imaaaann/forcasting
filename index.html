@@ -11,26 +11,30 @@
 </head>
 <body>
 <div class="weather-app">
-    <main>
         <form>
-            <input type="search" placeholder="Enter a city..." required>
-            <input type="submit" value="search">
+            <input type="search" placeholder="Enter a city..." required class="search-input">
+            <input type="submit" value="search" class="search-button">
         </form>
+    <main>
+    <div class="weather-data">
         <div>
-            <H1>Paris</H1>
-            <p>
+            <H1 class="weather-city">Paris</H1>
+            <p class="weather-deatails">
                 Tuesday 14:36, moderate rain <br>
-                Humidity: 25%, Wind: 30km/h
+                Humidity:<strong>25%</strong> , Wind: <strong>30km/h</strong>
             </p>
         </div>
-        <div>
-            ⛅10&deg;c
+        <div class="waether-temperature">
+            <div class="weather-icon">⛅</div>
+            <div class="weather-temp">10</div>
+            <div class="weather-unit">&deg;C</div>
         </div>
+    </div>
 
     </main>
-    <footer>Coded by <a href="https://github.com/Imaaaann">Iman</a>
-        and is on <a href="https://github.com/Imaaaann/forcasting">GitHub</a>, 
-        and hosted on <a href="https://golden-piroshki-0d5634.netlify.app/">netlify</a>
+    <footer>Coded by <a href="https://github.com/Imaaaann" target="_blank">Iman</a>
+        and is on <a href="https://github.com/Imaaaann/forcasting" target="_blank">GitHub</a>, 
+        and hosted on <a href="https://golden-piroshki-0d5634.netlify.app/" target="_blank">netlify</a>
     </footer>
 </div>
 </body>
