@@ -11,23 +11,23 @@
 </head>
 <body>
 <div class="weather-app">
-        <form>
-            <input type="search" placeholder="Enter a city..." required class="search-input">
-            <input type="submit" value="search" class="search-button">
+        <form id="search-form">
+            <input type="search" placeholder="Enter a city..." required class="search-input" id="search-input">
+            <input type="submit" value="search" class="search-button" id="search-button">
         </form>
     <main>
     <div class="weather-data">
         <div>
-            <H1 class="weather-city">Paris</H1>
-            <p class="weather-deatails">
+            <H1 class="weather-city" id="city">Paris</H1>
+            <p class="weather-deatails" id="details">
                 Tuesday 14:36, moderate rain <br>
                 Humidity:<strong>25%</strong> , Wind: <strong>30km/h</strong>
             </p>
         </div>
         <div class="waether-temperature">
-            <div class="weather-icon">⛅</div>
-            <div class="weather-temp">10</div>
-            <div class="weather-unit">&deg;C</div>
+            <div class="weather-icon" id="icon">⛅</div>
+            <div class="weather-temp" id="temp">10</div>
+            <div class="weather-unit" id="unit">&deg;C</div>
         </div>
     </div>
 
@@ -37,5 +37,6 @@
         and hosted on <a href="https://golden-piroshki-0d5634.netlify.app/" target="_blank">netlify</a>
     </footer>
 </div>
+<script src="scr.js/index.js"></script>
 </body>
 </html>
